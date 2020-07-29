@@ -1,0 +1,16 @@
+body{
+  background-image: url('../images/bgPattern.jpg');
+  background-size: cover;
+  font-family: arial;
+  min-height: 100vh;
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+}
